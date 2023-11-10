@@ -64,7 +64,7 @@ print(chain(" How can I cancel the subscription plan?"))
 # What steps should I follow to share a screenshot of the payment confirmation?
 #Is there an automatic payment option available?
 
-#How do I make a payment on Razor Pay?
+
 
 
 

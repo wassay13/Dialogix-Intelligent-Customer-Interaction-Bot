@@ -13,7 +13,7 @@ import openai
 
 
 import pinecone   #connecting vector database
-pinecone.init( api_key='68885954-209b-49e3-bb73-1c9d930aa87b', environment='gcp-starter')      
+pinecone.init( api_key='68885954-put your own api key-bb73-1c9d930aa87b', environment='gcp-starter')      
 index = pinecone.Index('dellbot')
 
 

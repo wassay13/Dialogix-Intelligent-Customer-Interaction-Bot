@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 import re
 import os
 os.environ['OPENAI_API_KEY'] = gpt_api_key
-openai.api_key = "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"
+openai.api_key = "sk-n2FLb7cx---put your own api key---FJ0JUsgN2XXCeLr7DQVSAk"
 
 
 import pinecone   #connecting vector database
@@ -18,7 +18,7 @@ index = pinecone.Index('dellbot')
 
 
 def chatpine(query):
-    pinecone.init( api_key='68885954-209b-49e3-bb73-1c9d930aa87b', environment='gcp-starter')      
+    pinecone.init( api_key='68885954-put own pinecone api-1c9d930aa87b', environment='gcp-starter')      
     index = pinecone.Index('dellbot')
    
     # most similar from vector database
